@@ -1,0 +1,21 @@
+name: BedrockBet
+version: 1.0
+main: com.bedrockbet.BedrockBet
+api-version: '1.20'
+
+commands:
+  stats:
+    description: Event statistics
+    usage: /stats [player|mobs|top]
+  market:
+    description: Betting market system
+    usage: /market <type> <args> <time>
+    aliases: [bet, m]
+  markets:
+    description: Open markets GUI
+    usage: /markets [page]
+    aliases: [bets]
+  leaderboard:
+    description: Manage floating balance leaderboards
+    usage: /leaderboard <create|remove|removeall>
+    aliases: [lb, top]
